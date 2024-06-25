@@ -229,6 +229,9 @@ footer{
 /* responsive */
 
 @media screen and (max-width: 1190px){
+    .keyvisual-title{
+        padding: 250px 0;
+    }
     .inner{
         width: 97%;
     }
@@ -248,8 +251,8 @@ footer{
         flex-direction: column;
         gap: 0;
     }
-    .skill-contents a:nth-of-type(3n){
-        padding-bottom: 50px;
+    .skill-contents li:nth-child(3n+3){
+        padding-bottom: 80px;
     }
 }
 
@@ -259,6 +262,9 @@ footer{
     }
     .humburger-menu{
         display: block;
+    }
+    .keyvisual-title{
+        padding: 200px 0;
     }
     .keyvisual-title h1{
         font-size: 40px;
@@ -275,6 +281,11 @@ footer{
     }
     .sns-icons-flex{
         display: block;
+        padding: 50px 15px;
+    }
+    .sns-icons-flex li{
+        padding: 50px 0;
+        width: 100%;
     }
     .sns-icons-flex li a{
         width: 100%;
